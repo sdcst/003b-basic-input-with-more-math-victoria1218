@@ -14,3 +14,11 @@ That is worth $8.00 USD
 How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
+
+import math
+cad = float(input("How many Canadian Dollars do you have?"))
+
+usd = cad/1.25
+answer= round(usd,2)
+
+print(f"tahtbis worth ${usd}0 USD.")
